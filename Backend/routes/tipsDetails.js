@@ -12,10 +12,10 @@ tiplog.get("/get", async (req, res) => {
 
 tiplog.post("/add", upload.array("photos", 12), async (req, res) => {
   //add multer here
-    
+
   const { title, content } = req.body;
-    await db.tip_details.create({ title, content });
-    console.log(req.files)
-  res.status(200).send({ success: true });
+  await db.tip_details.create({ title, content });
+  console.log(req.files);
+  // res.status(200).send({ success: true });
 });
 module.exports = tiplog;

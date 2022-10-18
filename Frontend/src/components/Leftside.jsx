@@ -17,7 +17,7 @@ function Leftside(props) {
           </span>
           <div className="flex justify-center mt-3">
             <div
-              class="w-11/12 h-30 rounded-xl px-4 py-3 "
+              className="w-11/12 h-30 rounded-xl px-4 py-3 "
               style={{ boxShadow: "4px 4px 20px rgb(0,0,0,0.25)" }}
             >
               <div className="text-amber-500 text-sm font-bold">
@@ -42,7 +42,7 @@ function Leftside(props) {
           <span className="text-black text-xl ml-2 font-bold">My Tips</span>
           <div className="flex justify-center mt-3">
             <div
-              class="w-11/12 h-30 rounded-xl px-4 py-3 "
+              className="w-11/12 h-30 rounded-xl px-4 py-3 "
               style={{ boxShadow: "4px 4px 20px rgb(0,0,0,0.25)" }}
             >
               <div className="text-amber-500 text-sm font-bold">
@@ -90,7 +90,6 @@ function Leftside(props) {
         <div>
           <div className="text-black text-lg font-bold">Add New Tips here</div>
           <div className="text-gray-600 text-base font-bold">
-            {" "}
             Press Ctrl + &
           </div>
         </div>

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Leftside from "./components/Leftside";
 import Rightside from "./components/Rightside";
@@ -8,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex  flex-row">
+    <div className="flex flex-row">
       <Leftside />
       <Rightside />
     </div>
